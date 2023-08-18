@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             calculate()
         }
     }
-//
+
     private fun isValid(): Boolean {
         return (binding.distance.text.toString() != ""
                 && binding.editPrince.text.toString() != ""
